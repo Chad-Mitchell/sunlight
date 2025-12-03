@@ -29,6 +29,10 @@ These four, connected into a single edge list, are sufficient for the light to d
 
 Full URLs and live examples are kept up-to-date in the repo history.
 
+## Reference docs
+- [Tennessee laws that create the graph edges](docs/laws.md)  
+- [Always-up-to-date data source links & examples](docs/data-sources.md)
+
 ## How the data appears (reality check)
 
 Right now the sources are scattered PDFs with no APIs.
