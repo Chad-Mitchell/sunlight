@@ -73,3 +73,24 @@ Status: 2025-12-03 – repo public, data repo live, ingestion pipeline starting
 10. Wire n8n → auto-commit to `knox-sunlight-data` every Sunday  
 11. Static query.html in data repo loads latest CSV in-browser  
 12. December 22 – merge to main and v2 expansions
+
+
+## How the data appears (2025 reality)
+
+Right now (Dec 2025) the four sources are scattered across government websites with no APIs.
+
+- First drops (Dec 22, Dec 29, Jan 5…) are built from manually downloaded PDFs.
+- Starting January 2026 we will automate one source per month until everything runs without a human.
+
+The weekly CSV still lands every Sunday either way.
+
+## Automation roadmap (public, no dates promised)
+
+| Source                          | Current method          | Future method (2026+)               |
+|--------------------------------|-------------------------|-------------------------------------|
+| Contracts & bid awards         | Manual download + Grok  | Puppeteer scraper on iQM2 / Purchasing |
+| Campaign finance               | Manual download + Grok  | Direct CSV export from TN Registry  |
+| Appointments & minutes         | Manual download + Grok  | Calendar scraper on iQM2            |
+| Org charts & salaries          | Quarterly TPRA request | Scheduled email → auto-parse        |
+
+The graph stays live and public the entire time.
