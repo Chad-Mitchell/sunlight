@@ -1,0 +1,18 @@
+sunlight/
+├── README.md                     ← mission + North Star
+├── STATUS.md                     ← one-line “where I actually am” file
+├── goals/
+│   └── mvp-first-principles.md
+├── sources/
+│   ├── 01-contracts-and-bids/
+│   ├── 02-campaign-finance/
+│   ├── 03-appointments-and-minutes/
+│   └── 04-org-charts-and-salaries/
+├── n8n/
+│   ├── workflows/                ← drop exported JSONs here later
+│   └── endpoints-and-notes.md
+├── data-samples/                 ← tiny safe samples only (git keeps them)
+├── scripts/                      ← future parsers (python, node, etc.)
+├── docs/
+│   └── tennessee-public-records-act-quickref.md
+└── .gitignore
