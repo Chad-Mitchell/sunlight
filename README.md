@@ -19,6 +19,8 @@ First real data drop: **2025-12-22** — then every Sunday.
 
 These four, connected into a single edge list, are sufficient for the light to do its work.
 
+The physics problem is (Elon Algorithm / First principles lens): make the four money+power flows visible to any citizen faster than the insiders can hide them.
+
 ## Legal context (why certain flows are allowed in Tennessee)
 
 All edges in the graph are created by laws that are already public.  
