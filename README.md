@@ -20,8 +20,8 @@ There is no enemy here—only shadows that dissolve in ordinary daylight.
 
 Connected simply, these four create a shared map that any resident or business owner can read in seconds.
 
-## Current status
- - In progress per the TODO section below
+## Current status (one-liner, updated whenever you push)
+- 12.03.25 – repo seeded, four sources locked, ready for first PDF ingest
 
 ## TODO (Pareto Sequence – Christmas 2025 MVP)
 
@@ -41,6 +41,3 @@ The data itself will surface whatever naturally wants to be seen (TIF districts,
 10. Full Graph Polish – dedupe entities, add gentle weights, anonymize by default  
 11. Build Query Dashboard (simple text box → warm, neutral summary + optional network viz)  
 12. Anonymize & Demo – share with 2–3 trusted, neutral testers before Christmas  
-
-Current status (one-liner, updated whenever you push):  
-Status: Day 0 – repo seeded, four sources locked, ready for first PDF ingest
