@@ -1,4 +1,4 @@
-# sunlight (private)
+# Sunlight (private)
 
 A quiet tool to bring clear light to local government in Knoxville—so that families, small businesses, neighborhoods, and the whole city can make better decisions and flourish together.
 
