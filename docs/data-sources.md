@@ -1,0 +1,10 @@
+# Concrete Knoxville / Knox County Data Sources (2025)
+
+| # | Flow type                                        | Current live links (verified Dec 2025)                                                                                                                       | Notes / examples |
+|---|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 1 | Contracts & bid awards (direct money flow)       | • City Purchasing: https://www.knoxvilletn.gov/government/city_departments_offices/purchasing/bid___contracting_opportunities<br>• Knox County Purchasing: https://www.knoxcounty.org/purchasing/<br>• iQM2 search for authority packets: https://knoxvillecitytn.iqm2.com/Citizens/Default.aspx | Largest recent awards usually in iQM2 Sports Authority or IDB packets |
+| 2 | Campaign contributions (influence via money flow)| • Knox County filings: https://www.knoxcounty.org/election/candidate_info/index.php<br>• State registry (search “Knoxville”): https://apps.tn.gov/tncamp/                                 | Quarterly PDFs + searchable database |
+| 3 | Appointments & minutes (power structure flow)   | • All boards/commissions (IDB, TIF, Sports Authority, etc.): https://knoxvillecitytn.iqm2.com/Citizens/Default.aspx<br>• County Commission packets: https://www.knoxcounty.org/clerk/commission_minutes.php | Filter by board name → download packet PDFs |
+| 4 | Org charts & salaries (extraction via hierarchy) | • City org chart (latest PDF): https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_109478/File/MayorsOffice/City-Org-Chart.pdf<br>• State salary search (UT & appointees): https://salary.app.tn.gov/public/searchsalary<br>• County payroll summaries: https://www.knoxcounty.org/clerk/financials.php | Org chart is visual → Grok extracts hierarchy; salaries via search |
+
+If a link 404s → Google the exact phrase in quotes + “Knoxville” or “Knox County”. TPRA guarantees the data exists somewhere.
