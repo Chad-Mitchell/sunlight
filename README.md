@@ -30,19 +30,23 @@ No drama.
 Just daylight.
 
 ## TODO (Pareto Sequence – Christmas 2025 MVP)
-Follow the 12-action flow: Ingest → Graph → Query. Seed with Boyd stadium as test cluster (public PDFs from knoxvilletn.gov Purchasing/iQM2; prompt Grok: "Extract edges: official→awards→vendor:amount, anonymize").
+
+Follow the 12-action flow: Ingest → Graph → Query.  
+The data itself will surface whatever naturally wants to be seen (TIF districts, stadium financing, large real-estate deals, etc.) without us ever naming a specific project or person up front.
 
 1. API Setup & Test Pull  
-2. Ingest Source 1 (Contracts - money flow) – Start with stadium bids (e.g., $114M breakdown PDFs)  
-3. Build Base Graph CSV  
-4. Ingest Source 2 (Campaign Finance - influence flow) – Cross Boyd donations  
-5. Cross-Link Sources 1-2 – Flag TIF loops  
-6. Early Query Test – "Patterns in sports subsidies?"  
-7. Ingest Source 3 (Appointments/Minutes - power flow) – UT/ECD ties  
+2. Ingest Source 1 (Contracts & bid awards – direct money flow)  
+   – Start with the largest recent public-works and development PDFs from knoxvilletn.gov Purchasing and Sports Authority packets  
+3. Build Base Graph CSV (edge list: source → target : amount : date : type)  
+4. Ingest Source 2 (Campaign contribution reports – influence via money flow)  
+5. Cross-Link Sources 1–2 – let cycles and clusters emerge on their own  
+6. Early Query Test – e.g. “Show me the strongest money ↔ influence loops in the last 36 months”  
+7. Ingest Source 3 (Appointments + meeting minutes – power structure flow)  
 8. Enhance Graph with Source 3  
-9. Ingest Source 4 (Org/Salaries - extraction flow) – Weight by pay premiums  
-10. Full Graph Polish – Anonymize outputs  
-11. Build Query Dashboard  
-12. Anonymize & Demo – Test with 2-3 neutrals  
+9. Ingest Source 4 (Org charts + public salary database – extraction via hierarchy flow)  
+10. Full Graph Polish – dedupe entities, add gentle weights, anonymize by default  
+11. Build Query Dashboard (simple text box → warm, neutral summary + optional network viz)  
+12. Anonymize & Demo – share with 2–3 trusted, neutral testers before Christmas  
 
-Status: [Your note here] – e.g., "Day 1: API live, stadium PDF parsed."
+Current status (one-liner, updated whenever you push):  
+Status: Day 0 – repo seeded, four sources locked, ready for first PDF ingest
