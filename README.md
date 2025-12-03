@@ -13,10 +13,10 @@ Good ideas win without force.
 There is no enemy here—only shadows that dissolve in ordinary daylight.
 
 ## The only four public data sources we need
-1. Government contracts & bid awards (money flow)
-2. Campaign contribution reports  (influence flow)
-3. Board/commission appointments + meeting minutes (power flow) 
-4. Organizational charts + public salary database  (extraction flow)
+1. Government contracts & bid awards (direct money flow): Outflows from public to private (e.g., TIF bonds as edges).
+2. Campaign contribution reports (influence via money flow): Inputs that bend decisions (e.g., donor → policy nudge).
+3. Board/commission appointments + meeting minutes (power structure flow): Who holds levers (e.g., TIF board picks).
+4. Organizational charts + public salary database (extraction via hierarchy flow): Value siphoned up (e.g., appointee pay weights).
 
 Connected simply, these four create a shared map that any resident or business owner can read in seconds.
 
