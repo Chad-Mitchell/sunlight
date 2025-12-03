@@ -35,6 +35,18 @@ The most common statutes you will see in practice:
 These laws are not opinions — they are the physics engine of the graph.  
 When a cluster appears, the relevant statute is usually only one click away in the original PDF.
 
+## Concrete Knoxville/Knox County starting points (all public, updated regularly)
+
+| # | Data source                                      | Where to find the real files (2025 links)                                                                                              |
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | **Government contracts & bid awards** (direct money flow) <br>• City of Knoxville Purchasing bids & awards: https://www.knoxvilletn.gov/government/city_departments_offices/purchasing/bid_tabulations <br>• Knox County Purchasing (includes TIF & IDB awards): https://www.knoxcounty.org/purchasing/bids.php <br>• Knoxville-Knox County Sports Authority packets (stadium, etc.): search at https://knoxvillecitytn.iqm2.com/Citizens/Default.aspx |
+| 2 | **Campaign contribution reports** (influence via money flow) <br>• Knox County Election Commission filings (local races): https://www.knoxcounty.org/election/finance_reports.php <br>• Tennessee Registry of Election Finance (state-level crossover): https://apps.tn.gov/tncamp/ |
+| 3 | **Board/commission appointments + meeting minutes** (power structure flow) <br>• All boards & commissions agendas/minutes (including TIF boards, IDB, Sports Authority): https://knoxvillecitytn.iqm2.com/Citizens/Default.aspx <br>• Knox County Commission & committee packets: https://www.knoxcounty.org/commission/packets.php |
+| 4 | **Org charts + public salary database** (extraction via hierarchy flow) <br>• City of Knoxville org chart (latest PDF): https://www.knoxvilletn.gov/UserFiles/Servers/Server_109478/File/OrgChart.pdf <br>• Knox County employee salaries (searchable): https://www.knoxcounty.org/hr/salary.php <br>• State-wide salary lookup (for UT, state appointees, etc.): https://apps.tn.gov/salary-search/ |
+
+These URLs are the actual firehose we automate from.  
+If any link moves, a 2-minute web search will find the new one — the data is required by law to stay public.
+
 ## How it works (fully automated after Christmas 2025)
 - n8n pulls fresh PDFs → Grok extracts clean entities & relationships  
 - One CSV edge list is built  
