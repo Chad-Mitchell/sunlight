@@ -33,14 +33,14 @@ Just daylight.
 Follow the 12-action flow: Ingest → Graph → Query. Seed with Boyd stadium as test cluster (public PDFs from knoxvilletn.gov Purchasing/iQM2; prompt Grok: "Extract edges: official→awards→vendor:amount, anonymize").
 
 1. API Setup & Test Pull  
-2. Ingest Source 1 (Contracts) – Start with stadium bids (e.g., $114M breakdown PDFs)  
+2. Ingest Source 1 (Contracts - money flow) – Start with stadium bids (e.g., $114M breakdown PDFs)  
 3. Build Base Graph CSV  
-4. Ingest Source 2 (Campaign Finance) – Cross Boyd donations  
+4. Ingest Source 2 (Campaign Finance - influence flow) – Cross Boyd donations  
 5. Cross-Link Sources 1-2 – Flag TIF loops  
 6. Early Query Test – "Patterns in sports subsidies?"  
-7. Ingest Source 3 (Appointments/Minutes) – UT/ECD ties  
+7. Ingest Source 3 (Appointments/Minutes - power flow) – UT/ECD ties  
 8. Enhance Graph with Source 3  
-9. Ingest Source 4 (Org/Salaries) – Weight by pay premiums  
+9. Ingest Source 4 (Org/Salaries - extraction flow) – Weight by pay premiums  
 10. Full Graph Polish – Anonymize outputs  
 11. Build Query Dashboard  
 12. Anonymize & Demo – Test with 2-3 neutrals  
