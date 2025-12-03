@@ -29,7 +29,7 @@ When it’s ready, we’ll open the window and let the sun in.
 No drama.  
 Just daylight.
 
-## Pareto Gameplan: Sequence of 12 Core Actions
+## TODO
 
 This is the 80/20 path: Prioritize contracts (money core) → link to finance → add power flows → surface light. Each action builds a testable piece; run queries after #6 for early wins. Use n8n for pulls/orchestration, Supabase/Airtable for raw storage, CSV for graph, Grok API for parsing/queries. Commit to repo after each.
 
