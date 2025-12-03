@@ -19,6 +19,22 @@ First real data drop: **2025-12-22** — then every Sunday forever.
 
 These four, connected into a single edge list, are sufficient for the light to do its work.
 
+## Legal context (why certain flows are allowed in Tennessee)
+
+All edges in the graph are created by laws that are already public.  
+The most common statutes you will see in practice:
+
+| Statute                                | What it permits                                      | Typical graph pattern it creates                     |
+|----------------------------------------|-------------------------------------------------------|------------------------------------------------------|
+| T.C.A. § 7-53-101 et seq.              | Industrial Development Boards (IDBs)                  | Public → private corporation → PILOT / tax abatement |
+| T.C.A. § 7-88-101 et seq.              | Sports & tourism authorities                          | Public → private stadium / venue → tax diversion     |
+| T.C.A. § 13-20-201 et seq. & § 13-28-101 | Tax Increment Financing (TIF)                            | Public → TIF district → private developer uplift     |
+| T.C.A. § 6-54-111 & § 7-54-111          | Municipal appropriations to “economic development” nonprofits | Public → nonprofit → private beneficiary             |
+| Tennessee Public Records Act (T.C.A. § 10-7-503) | Guarantees citizen access to every document we ingest | No permission needed — we just automate what is already yours |
+
+These laws are not opinions — they are the physics engine of the graph.  
+When a cluster appears, the relevant statute is usually only one click away in the original PDF.
+
 ## How it works (fully automated after Christmas 2025)
 - n8n pulls fresh PDFs → Grok extracts clean entities & relationships  
 - One CSV edge list is built  
