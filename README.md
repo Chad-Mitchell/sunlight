@@ -21,13 +21,7 @@ There is no enemy here—only shadows that dissolve in ordinary daylight.
 Connected simply, these four create a shared map that any resident or business owner can read in seconds.
 
 ## Current status
-Private workshop.  
-Building slowly and carefully until the light is clean, kind, and undeniably useful.
-
-When it’s ready, we’ll open the window and let the sun in.
-
-No drama.  
-Just daylight.
+ - In progress per the TODO section below
 
 ## TODO (Pareto Sequence – Christmas 2025 MVP)
 
