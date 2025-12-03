@@ -9,7 +9,7 @@ Knoxville is the first prototype. The pattern is designed to be copied by any ci
 
 ## Companion data repo (public, automated, no gatekeeper)
 → https://github.com/Chad-Mitchell/knox-sunlight-data  
-First real data drop: **2025-12-22** — then every Sunday forever.
+First real data drop: **2025-12-22** — then every Sunday.
 
 ## The only four public data sources we use
 1. Government contracts & bid awards → direct money flow  
