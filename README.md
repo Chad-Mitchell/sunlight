@@ -1,28 +1,30 @@
 # sunlight (private)
 
-The corruption-killing graph engine.  
-Knoxville is the prototype → every other city follows.
+A quiet tool to bring clear light to local government in Knoxville—so that families, small businesses, neighborhoods, and the whole city can make better decisions and flourish together.
 
-Corruption and nepotism die in sunlight.  
-This repo builds the torch strong enough to make the shadows impossible.
+Knoxville is the first living prototype. The pattern will spread.
 
-## First-principles mission
-Make it physically impossible for a Knox County / Knoxville official, relative, donor, or crony to extract money or power without every citizen seeing the exact connection in <10 seconds.
+## The intuition
+When relationships, money, appointments, and salaries are gently made visible, trust grows naturally.  
+People self-correct.  
+Communities coordinate.  
+Good ideas win without force.
 
-We do that with four (and only four) public data sources connected into one queryable graph.
+There is no enemy here—only shadows that dissolve in ordinary daylight.
 
-## The only four sources that matter (v1)
-1. Government contracts & bid awards (money flow)
-2. Campaign finance disclosures (influence flow)
-3. Board/commission appointments + meeting minutes (power flow)
-4. Org charts + public employee salary database (extraction flow)
+## The only four public data sources we need
+1. Government contracts & bid awards  
+2. Campaign contribution reports  
+3. Board/commission appointments + meeting minutes  
+4. Organizational charts + public salary database  
 
-Everything else is noise until these four are live and lighting up clusters.
+Connected simply, these four create a shared map that any resident or business owner can read in seconds.
 
 ## Current status
-→ Private for now. Building in the dark until the tool is bullet-proof and outputs are anonymized by default.
+Private workshop.  
+Building slowly and carefully until the light is clean, kind, and undeniably useful.
 
-No rush. No leaks. No half-baked screenshots.
+When it’s ready, we’ll open the window and let the sun in.
 
-Sunlight is coming.  
-We’re just sharpening the blade first.
+No drama.  
+Just daylight.
