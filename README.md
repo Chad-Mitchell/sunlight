@@ -1,43 +1,44 @@
 # Sunlight
 
-A quiet tool to bring clear light to local government in Knoxville—so that families, small businesses, neighborhoods, and the whole city can make better decisions and flourish together.
+A quiet, automated tool that turns four public data sources into one living graph of money and power flows in Knoxville & Knox County.
 
-Knoxville is the first living prototype.
+The goal is simple:  
+When ordinary daylight falls on relationships, money, appointments, and salaries, trust grows, communities coordinate, and people flourish — without anyone having to fight.
 
-## The intuition
-When relationships, money, appointments, and salaries are gently made visible, trust grows naturally.  
-People self-correct.  
-Communities coordinate.  
-Good ideas win without force.
+Knoxville is the first prototype. The pattern is designed to be copied by any city in one weekend.
 
-There is no enemy here—only shadows that dissolve in ordinary daylight.
+## Companion data repo (public, automated, no gatekeeper)
+→ https://github.com/Chad-Mitchell/knox-sunlight-data  
+First real data drop: **2025-12-22** — then every Sunday forever.
 
-## The only four public data sources we need
-1. Government contracts & bid awards (direct money flow): Outflows from public to private (e.g., TIF bonds as edges).
-2. Campaign contribution reports (influence via money flow): Inputs that bend decisions (e.g., donor → policy nudge).
-3. Board/commission appointments + meeting minutes (power structure flow): Who holds levers (e.g., TIF board picks).
-4. Organizational charts + public salary database (extraction via hierarchy flow): Value siphoned up (e.g., appointee pay weights).
+## The only four public data sources we use
+1. Government contracts & bid awards → direct money flow  
+2. Campaign contribution reports → influence via money flow  
+3. Board/commission appointments + meeting minutes → power structure flow  
+4. Org charts + public salary database → extraction via hierarchy flow  
 
-Connected simply, these four create a shared map that any resident or business owner can read in seconds.
+These four, connected into a single edge list, are sufficient for the light to do its work.
 
-## Current status (one-liner, updated whenever you push)
-- 12.03.25 – repo seeded, four sources locked, ready for first PDF ingest
+## How it works (fully automated after Christmas 2025)
+- n8n pulls fresh PDFs → Grok extracts clean entities & relationships  
+- One CSV edge list is built  
+- CSV is pushed to `knox-sunlight-data` every Sunday at 03:00 UTC  
+- Anyone can fork, query, visualize, or post findings — no permission needed  
 
-## TODO (Pareto Sequence – Christmas 2025 MVP)
+## Current status (one-liner, updated on every push)
+Status: 2025-12-03 – repo public, data repo live, ingestion pipeline starting
 
-Follow the 12-action flow: Ingest → Graph → Query.  
-The data itself will surface whatever naturally wants to be seen (TIF districts, stadium financing, large real-estate deals, etc.) without us ever naming a specific project or person up front.
+## Pareto TODO → Christmas 2025 MVP
 
-1. API Setup & Test Pull  
-2. Ingest Source 1 (Contracts & bid awards – direct money flow)  
-   – Start with the largest recent public-works and development PDFs from knoxvilletn.gov Purchasing and Sports Authority packets  
-3. Build Base Graph CSV (edge list: source → target : amount : date : type)  
-4. Ingest Source 2 (Campaign contribution reports – influence via money flow)  
-5. Cross-Link Sources 1–2 – let cycles and clusters emerge on their own  
-6. Early Query Test – e.g. “Show me the strongest money ↔ influence loops in the last 36 months”  
-7. Ingest Source 3 (Appointments + meeting minutes – power structure flow)  
-8. Enhance Graph with Source 3  
-9. Ingest Source 4 (Org charts + public salary database – extraction via hierarchy flow)  
-10. Full Graph Polish – dedupe entities, add gentle weights, anonymize by default  
-11. Build Query Dashboard (simple text box → warm, neutral summary + optional network viz)  
-12. Anonymize & Demo – share with 2–3 trusted, neutral testers before Christmas  
+1. xAI API setup + first PDF → JSON test  
+2. Ingest Source 1 (largest recent contracts & development awards)  
+3. Build base edge-list CSV  
+4. Ingest Source 2 (campaign contributions)  
+5. Cross-link 1→2 – watch natural clusters appear  
+6. Early query test in terminal / notebook  
+7. Ingest Source 3 (appointments + minutes)  
+8. Ingest Source 4 (org charts + salaries)  
+9. Full graph polish & anonymization defaults  
+10. Wire n8n → auto-commit to `knox-sunlight-data` every Sunday  
+11. Static query.html in data repo loads latest CSV in-browser  
+12. December 22 – merge to main and v2 expansions
