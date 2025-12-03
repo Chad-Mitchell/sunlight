@@ -22,9 +22,6 @@ Everything else is noise until these four are live and lighting up clusters.
 ## Current status
 → Private for now. Building in the dark until the tool is bullet-proof and outputs are anonymized by default.
 
-When it goes public, the story will be:  
-“One citizen in his den made the entire power structure transparent.”
-
 No rush. No leaks. No half-baked screenshots.
 
 Sunlight is coming.  
