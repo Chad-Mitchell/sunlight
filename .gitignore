@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+.env
+.DS_Store
+
+# Large or sensitive raw data (add real samples manually, keep tiny)
+data-samples/*.pdf
+data-samples/*.xlsx
+data-samples/*.csv
+
+# n8n exports when they get huge
+n8n/workflows/*.json
+
+# Local DB dumps
+*.sqlite
+dump/
