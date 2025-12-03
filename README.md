@@ -45,6 +45,7 @@ When a cluster appears, the relevant statute is usually only one click away in t
 | 4 | **Org charts + public salary database** (extraction via hierarchy flow) | • City of Knoxville org chart (latest PDF): https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_109478/File/MayorsOffice/City-Org-Chart.pdf (Feb 2025 update, 50+ roles from Mayor to dept heads; e.g., Chief of Staff → Finance Director)<br>• Knox County employee salaries (searchable): https://www.knoxcounty.org/finance/paying_employees.php (e.g., search "Director" for 2025 ranges: $120K-$180K median; payroll summaries via Clerk financials at https://www.knoxcounty.org/clerk/financials.php)<br>• State-wide salary lookup (for UT, state appointees, etc.): https://salary.app.tn.gov/public/searchsalary (e.g., query "University of Tennessee Knoxville" for exec salaries, avg $150K+) |
 
 These URLs are the actual firehose we automate from. They are not the full set of data sources, only the initial set specified here for reference/example. We will continue to expand and improve this list over time. Ideally, all the relevant data sources would be available via API or programatically accessible in the future.   
+
 If any link moves, a 2-minute web search will find the new one—the data is required by law to stay public.
 
 ## How it works (fully automated after Christmas 2025)
