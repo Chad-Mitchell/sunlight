@@ -2,7 +2,7 @@
 
 A quiet tool to bring clear light to local government in Knoxville—so that families, small businesses, neighborhoods, and the whole city can make better decisions and flourish together.
 
-Knoxville is the first living prototype. The pattern will spread.
+Knoxville is the first living prototype.
 
 ## The intuition
 When relationships, money, appointments, and salaries are gently made visible, trust grows naturally.  
@@ -13,10 +13,10 @@ Good ideas win without force.
 There is no enemy here—only shadows that dissolve in ordinary daylight.
 
 ## The only four public data sources we need
-1. Government contracts & bid awards  
-2. Campaign contribution reports  
-3. Board/commission appointments + meeting minutes  
-4. Organizational charts + public salary database  
+1. Government contracts & bid awards (money flow)
+2. Campaign contribution reports  (influence flow)
+3. Board/commission appointments + meeting minutes (power flow) 
+4. Organizational charts + public salary database  (extraction flow)
 
 Connected simply, these four create a shared map that any resident or business owner can read in seconds.
 
