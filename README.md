@@ -1,60 +1,45 @@
-# Sunlight
+# Knox Sunlight
 
-A quiet, automated tool that turns four public data sources into one living graph of money and power flows in Knoxville & Knox County.
+A quiet, automated tool that turns publicly available government data into a single, living network graph of money and influence in Knoxville & Knox County.
 
-When ordinary daylight falls on relationships, money, appointments, and salaries, trust grows, communities coordinate, and people flourish — without anyone having to fight.
+Daylight on relationships and flows helps everyone — residents, journalists, officials, and researchers — understand how decisions are made. No accusations, no editorials, just connected facts.
 
-Knoxville is the first prototype. The pattern is designed to be copied by any city in one weekend.
+The pattern is intentionally simple so any city can copy it in a weekend.
 
-## Live data (public, no gatekeeper)
-→ https://github.com/Chad-Mitchell/knox-sunlight-data
-First real data drop: **2025-12-22** — then every Sunday.
+**Live graph (coming soon)** → https://knoxsun.com  
+**Raw data repository** → https://github.com/Chad-Mitchell/knox-sunlight-data  
+First automated update target: January 2026
 
-## The four public sources we use
-1. Government contracts & bid awards → direct money flow  
-2. Campaign contribution reports → influence via money flow  
-3. Board/commission appointments + meeting minutes → power structure flow  
-4. Org charts + public salary database → extraction via hierarchy flow  
+## What we show (all from official public sources)
 
-These four, connected into a single edge list, are sufficient for the light to do its work.
+| Dataset                            | Source                                      | Update cadence | Purpose                              |
+|------------------------------------|---------------------------------------------|----------------|--------------------------------------|
+| Tax-increment financing (TIF) & payment-in-lieu-of-taxes (PILOT) projects | City of Knoxville / Knox County records     | Quarterly → Weekly | Show which entities receive incentives |
+| Campaign contributions (≥ $1,000)  | Tennessee Registry of Election Finance      | Quarterly      | Document disclosed political donations |
+| City Council & County Commission voting records | iQM2 agendas & minutes                      | Weekly         | Record who sponsored and supported each item |
+| Major contracts & bid awards       | City Purchasing / KnoxBuys                | Monthly        | Track public spending flows (phase 2) |
 
-## Concrete starting points (Knoxville 2025)
+These four datasets, linked together, are sufficient for meaningful daylight.
 
-| # | Data source                                      | Links & examples |
-|---|--------------------------------------------------|------------------|
-| 1 | Contracts & bid awards                           | City Purchasing · County Purchasing · iQM2 search |
-| 2 | Campaign contributions                           | Knox County filings · TN Registry of Election Finance |
-| 3 | Appointments & minutes                           | iQM2 portal · County Commission packets |
-| 4 | Org charts & salaries                            | City org chart PDF · County payroll · State salary search |
+## Philosophy
 
-Full URLs and live examples are kept up-to-date in the repo history.
+> “When ordinary daylight falls on relationships, money, appointments, and salaries, trust grows, communities coordinate, and people flourish — without anyone having to fight.”
 
-## Reference docs
-- [Tennessee laws that create the graph edges](docs/laws.md)  
-- [Always-up-to-date data source links & examples](docs/data-sources.md)
+No commentary is added. The graph speaks for itself.
 
-## How the data appears (reality check)
+## Current status (December 2025)
 
-Right now the sources are scattered PDFs with no APIs.
+- Repository and data structure public  
+- Initial datasets being assembled from official PDFs and exports  
+- Live site (knoxsun.com) in development — first public graph expected January 2026  
+- All code and data remain openly licensed (MIT) and forkable by any Tennessee city
 
-- First drops (in progress) are built from manually downloaded files.  
-- Next we automate one source at a time until everything runs without a human.
-- Ideally, this data will become more accessible (eg API) but for now it's tedious to obtain.
+## Get involved (no cost, no drama)
 
-The weekly CSV still lands every Sunday either way.
+- Star / watch the repo for updates  
+- Submit missing public documents via Issues or PRs  
+- Fork for Chattanooga, Nashville, Memphis, etc.
 
-## Automation roadmap (no dates promised)
+Questions? Open an issue. We respond to every good-faith request.
 
-| Source                    | 2025 method            | 2026+ method                     |
-|---------------------------|------------------------|----------------------------------|
-| Contracts & bids          | Manual + Grok          | Puppeteer scraper                |
-| Campaign finance          | Manual + Grok          | Direct CSV export                |
-| Appointments & minutes    | Manual + Grok          | Calendar scraper                 |
-| Org charts & salaries     | Quarterly TPRA request | Scheduled auto-parse             |
-
-The graph stays live and public the entire time.
-
-## Current status
-2025-12-03 – repo public, data repo live, first manual drop in progress
-
-Fork it, run it, post what you see. No permission needed.
+— Just sunlight. Nothing more, nothing less.
