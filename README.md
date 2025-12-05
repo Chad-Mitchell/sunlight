@@ -21,6 +21,43 @@ First automated update target: January 2026
 
 These four datasets, linked together, are sufficient for meaningful daylight.
 
+## Visualizations (live at knoxsun.com when launched)
+
+Three neutral views that auto-update every Sunday. All data from official public sources only.
+
+| View                        | Best for                          | Example insight (multi-use sports stadium)                              | Tech (one file)      |
+|-----------------------------|-----------------------------------|--------------------------------------------------------------------------|----------------------|
+| Follow the Money Sankey     | General public (instant impact)   | Large public incentive → private development entity → political donations → elected officials who approved the project | D3.js + Observable   |
+| Connection Score Leaderboard| Journalists & non-visual readers  | Top 10 public incentive projects ranked by strength of financial-political links | HTML table + Tailwind|
+| Interactive Network Graph   | Researchers & detailed analysis   | Click any project or official → see exact dollar amounts, dates, and recorded votes | vis-network.js       |
+
+All visualizations are mobile-friendly, require no login, and are designed to be shared or screenshot.
+Preview versions will appear in `/viz` as soon as the first datasets are processed.
+
+## Example insight (currently in development)
+
+A recent multi-use sports stadium project received approximately $65 million in combined public financing and tax incentives.  
+The same development network made roughly $X in disclosed political contributions (2020–2025) to elected officials who voted on the project.
+
+This pattern appears as the current #1 entry on the Connection Score Leaderboard (preview coming January 2026).
+
+
+## Automation (n8n workflow — runs forever)
+
+Single, low-maintenance workflow (≤12 nodes) on the free n8n tier:
+
+1. Schedule Trigger → Every Sunday 03:00 ET  
+2. HTTP Request → Latest public incentive project list  
+3. HTTP Request → State campaign finance bulk export  
+4. HTTP Request → New council/commission agenda and minute packets  
+5. LLM node (Grok-4 or OpenAI) → Structured extraction from new documents  
+6. Merge → Append to master datasets  
+7. GitHub → Commit updated CSVs and edge list  
+8. Webhook → Trigger site rebuild at knoxsun.com  
+9. Optional notification → “Weekly update complete — X new connections added”
+
+Full workflow JSON will live at `/automation/n8n-workflow.json`.
+
 ## Philosophy
 
 > “When ordinary daylight falls on relationships, money, appointments, and salaries, trust grows, communities coordinate, and people flourish — without anyone having to fight.”
