@@ -38,7 +38,8 @@ Full URLs and live examples are kept up-to-date in the repo history.
 Right now the sources are scattered PDFs with no APIs.
 
 - First drops (in progress) are built from manually downloaded files.  
-- Starting 2026 we automate one source per month until everything runs without a human.
+- Next we automate one source at a time until everything runs without a human.
+- Ideally, this data will become more accessible (eg API) but for now it's tedious to obtain.
 
 The weekly CSV still lands every Sunday either way.
 
